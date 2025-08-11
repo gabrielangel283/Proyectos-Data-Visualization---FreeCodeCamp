@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#grafico {
+    display: flex;
+    flex-direction: column;
+}
+
+#tooltip {
+    background-color: rgba(56, 65, 66, 0.8);
+    color: white;
+    padding: 6px 9px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 12px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}

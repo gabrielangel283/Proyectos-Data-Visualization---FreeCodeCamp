@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    background-color: rgb(189, 189, 228);
+}
+
+.cont-grafico {
+    background-color: white;
+    height: calc(98vh - 10px);
+    width: 850px;
+}
+
+.bar {
+    fill: rgb(22, 197, 197);
+}
+
+.bar:hover {
+    fill: aqua;
+}
+
+#title>span {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title>p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 12px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.info-extra {
+    font-size: 10px;
+    padding-left: 45px;
+}
